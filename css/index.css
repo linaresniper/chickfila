@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 45px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.find-restaurant {
+  color: #f01c2a;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f01c2a;
+  font-size: 16px;
+  font-weight: arial;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.sign-in {
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  background-color: white;
+  font-weight: arial;
+  cursor: pointer;
+  color: #f01c2a;
+}
+
+.order-now {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: #f01c2a;
+  color: white;
+  border: none;
+  font-weight: arial;
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 20px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px 20px ;
+  background-color: #fff;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  text-align: center;
+}
+
+.welcome {
+  font-weight: bold;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  color: #f01c2a;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-family: 'Franklin Gothic' Medium;
+}
+
+.order-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.pickup, .delivery {
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.pickup {
+  background-color: #f01c2a;
+  color: white;
+}
+
+.delivery {
+  background-color: #f01c2a;
+  color: white;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 550px;
+}
+
+.hero-image img {
+  max-width: 550px;
+  height: 550;
+}
